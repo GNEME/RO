@@ -1,0 +1,215 @@
+obj_fct1 = '12*x1 + 9*x2'
+constraints1 = [
+    '4*x1 + 3*x2 <= 36',
+    '4*x1 + 1*x2 <= 28',
+    '4*x1 + 5*x2 >= 20',
+    '-1*x1 + 1*x2 <= 5'
+]
+type_max1 = True
+
+
+obj_fct2 = '3*x1 + 1*x2'
+constraints2 = [
+    '3*x1 - 1*x2 >= 3',
+    '1*x1 + 1*x2 <= 1'
+]
+type_max2 = True
+
+
+obj_fct3 = '20*x1 + 15*x2 - 3*x3'
+constraints3 = [
+    '20*x1 + 12*x2 - 100*x3 <= 700',
+    '1*x1 + 1*x2 <= 100',
+    '6*x1 - 4*x2 <= 0'
+]
+type_max3 = True
+
+
+obj_fct4 = '20*x1 + 25*x2'
+constraints4 = [
+    '1*x1 + 5*x2 >= 5',
+    '1*x1 + 2*x2 >= 4',
+    '3*x1 + 1*x2 >= 6'
+]
+type_max4 = False
+
+
+obj_fct5 = '-3*x1 + 1*x2'
+constraints5 = [
+    '4*x1 - 3*x2 <= 24',
+    '3*x1 + 1*x2 >= 12',
+    '3*x1 + 2*x2 <= 35',
+    '6*x1 - 1*x2 <= 50',
+    '-1*x1 + 1*x2 <= 0'
+]
+type_max5 = False
+
+
+obj_fct6 = '2*x1 + 3*x2'
+constraints6 = [
+    '1*x1 + 1*x2 <= 4',
+    '1*x1 + 2*x2 <= 5',
+    '4*x1 - 1*x2 >= 2'
+]
+type_max6 = True
+
+
+obj_fct7 = '1000*x1 + 2000*x2'
+constraints7 = [
+    '1*x1 + 1*x2 <= 150',
+    '2*x1 + 1*x2 <= 220',
+    '1*x1 + 4*x2 <= 480',
+    '1*x1 <= 90'
+]
+type_max7 = True
+
+
+obj_fct8 = '1*x1 + 2*x2'
+constraints8 = [
+    '-1*x1 + 2*x2 <= 12',
+    '3*x1 + 5*x2 <= 52',
+    '1*x1 + 1*x2 <= 14',
+    '1*x1 <= 12'
+]
+type_max8 = True
+
+
+obj_fct9 = '100*x1 + 40*x2'
+constraints9 = [
+    '1*x1 >= 4',
+    '1*x2 >= 6',
+    '1*x1 + 2*x2 >= 20',
+    '2*x1 + 1*x2 >= 17'
+]
+type_max9 = False
+
+
+obj_fct10 = '1*x1 + 1*x2 + 1*x3 + 1*x4 + 1*x5 + 1*x6 + 1*x7 + 1*x8 + 1*x9 + 1*x10'
+constraints10 = [
+    '3*x1 + 2*x2 + 2*x3 + 1*x4 + 1*x5 + 1*x6 >= 360',
+    '1*x2 + 2*x4 + 1*x5 + 3*x7 + 2*x8 + 1*x9 >= 180',
+    '2*x3 + 2*x5 + 4*x6 + 1*x7 + 2*x8 + 4*x9 + 6*x10 >= 180'
+]
+type_max10 = False
+
+
+obj_fct11 = '1000*x1 + 1200*x2'
+constraints11 = [
+    '10*x1 + 5*x2 <= 200',
+    '2*x1 + 3*x2 <= 60',
+    '1*x1 <= 34',
+    '1*x2 <= 14'
+]
+type_max11 = True
+
+
+obj_fct12 = '2000*x1 + 1000*x2'
+constraints12 = [
+    '10*x1 + 5*x2 <= 200',
+    '2*x1 + 3*x2 = 60',
+    '1*x1 <= 12',
+    '1*x2 >= 6'
+]
+type_max12 = True
+
+
+obj_fct13 = '2*x1 + 3*x2'
+constraints13 = [
+    '1/2*x1 + 1/4*x2 <= 4',
+    '1*x1 + 3*x2 >= 20',
+    '1*x1 + 1*x2 = 10'
+]
+type_max13 = False
+
+
+obj_fct14 = '0.4*x1 + 1/2*x2'
+constraints14 = [
+    '0.3*x1 + 0.1*x2 <= 2.7',
+    '0.5*x1 + 0.5*x2 = 6',
+    '0.6*x1 + 0.4*x2 >= 6'
+]
+type_max14 = False
+
+
+obj_fct15 = '1000*x1 + 2000*x2'
+constraints15 = [
+    '10*x1 + 5*x2 <= 200',
+    '2*x1 + 3*x2 <= 60',
+    '1*x1 >= 34',
+    '1*x2 >= 7'
+]
+type_max15 = True
+
+
+obj_fct16 = '1*x1 + 2*x2'
+constraints16 = [
+    '-2*x1 + 3*x2 <= 6',
+    '6*x1 - 9*x2 <= 18',
+    '1*x1 >= 1'
+]
+type_max16 = True
+
+
+obj_fct17 = '87*x1 + 147*x2 + 258*x3'
+constraints17 = [
+    '1*x1 + 2*x2 + 3*x3 <= 90',
+    '15*x1 + 21*x2 + 30*x3 <= 1260',
+    '1*x1 + 1*x2 + 1*x3 <= 84'
+]
+type_max17 = True
+
+
+obj_fct18 = '853*x1 + 699*x2'
+constraints18 = [
+    '1*x1 + 2*x2 <= 12',
+    '5*x1 + 4*x2 <= 30',
+    '1*x1 + 1*x2 <= 17',
+    '3*x1 + 2*x2 <= 27'
+]
+type_max18 = True
+
+
+obj_fct19 = '1*x1 + 1*x2'
+constraints19 = [
+    '2*x1 + 1*x2 >= 12',
+    '5*x1 + 8*x2 >= 74',
+    '1*x1 + 6*x2 >= 24'
+]
+type_max19 = False
+
+
+obj_fct20 = '22410*x1 + 33230*x2'
+constraints20 = [
+    '3.5*x1 + 4*x2 <= 1500',
+    '2*x1 + 3*x2 <= 2000',
+    '1*x1 >= 120'
+]
+type_max20 = True
+
+
+obj_fct21 = '10*x1 + 20*x2'
+constraints21 = [
+    '1*x1 + 2*x2 >= 8',
+    '1*x1 <= 10',
+    '2*x1 - 3*x2 <= 9'
+]
+type_max21 = False
+
+
+obj_fct22 = '100*x1 + 300*x2 + 80*x3'
+constraints22 = [
+    '2*x1 + 1*x2 + 3*x3 >= 60',
+    '1*x1 + 2*x2 + 4*x3 <= 140',
+    '-1*x1 + 1*x2 <= 0',
+    '1*x1 + 1*x2 + 1*x3 <= 200'
+]
+type_max22 = True
+
+
+obj_fct23 = '12*x1 + 20*x2'
+constraints23 = [
+    '6*x1 + 10*x2 >= 60',
+    '8*x1 + 25*x2 >= 200',
+    '2*x1 + 8*x2 <= 80'
+]
+type_max23 = True
